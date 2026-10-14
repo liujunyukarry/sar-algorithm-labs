@@ -1,0 +1,436 @@
+{
+  "snapshot_utc": "2026-10-14T05:36:03.984261+00:00",
+  "method": "unsquashed two-parent subtree merge via git merge -s ours --no-commit and git read-tree --prefix; original branch refs preserved under source/<repository>/<branch>",
+  "sources": [
+    {
+      "repository": "liujunyukarry/Radar-SAR-simu",
+      "prefix": "radar-basics/Radar-SAR-simu",
+      "default_branch": "master",
+      "head_sha": "9888841de8c0e072c8e4157bd759ef8c1f3e7f0a",
+      "tree_sha": "d1e1f696ef1670e7af13444a1c8f450cd9e59bb0",
+      "file_count": 9,
+      "commit_count": 5,
+      "commit_shas": [
+        "9888841de8c0e072c8e4157bd759ef8c1f3e7f0a",
+        "2d67fbdc49e0041ad90bc81dd75a8a09eff1401a",
+        "9329f7005c92059246bc99aba02fcc39f607ae7d",
+        "06f4da80f08a0d82e489024d4f99fe44a48e5f79",
+        "0a1407546753185202e7e7b49646ea01ad07bc92"
+      ],
+      "refs": [
+        "refs/heads/master 9888841de8c0e072c8e4157bd759ef8c1f3e7f0a"
+      ],
+      "entries": [
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+          "path": ".gitattributes"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4cf04eb9cbcd4866b891d039d1d43acea0258e17",
+          "path": ".gitignore"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6e68262839d5299120d09dafd907c696942dccd5",
+          "path": "LICENSE"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a184a9d2c51f2f9653b612ac972e2883af6f9a4f",
+          "path": "PROJECT_GUIDE.md"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5d9626ef7ac8a9d28e6cd14b8184a37db1cfa2d9",
+          "path": "README.md"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0b56a87c265b8f2fb2ec8cefc5b99bf97978a2d0",
+          "path": "lfmPulseCompression.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6a81f82e81140d9a58ac3e0b31dde163d2f25acb",
+          "path": "radarImaging_withDotsTarget.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a9493f113c5694d2fb5e19701253413648885b88",
+          "path": "realDataProsessing.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "906e686ad32e4e94e64e60dd5f2309d927d0c15e",
+          "path": "rect.m"
+        }
+      ],
+      "licenses": [
+        "LICENSE"
+      ],
+      "package_manifests": [],
+      "data_files": [],
+      "upstream": "lwh521jll/Radar-SAR-simu",
+      "has_pages": false,
+      "validation": {
+        "tree_identical": true,
+        "all_commit_objects_present": true,
+        "source_head_is_main_ancestor": true,
+        "source_fsck_passed": true
+      }
+    },
+    {
+      "repository": "liujunyukarry/SAR-imaging",
+      "prefix": "imaging-algorithms/SAR-imaging",
+      "default_branch": "master",
+      "head_sha": "32ad9251eb9a4d89386e36768832e959f487fc1b",
+      "tree_sha": "341b320d2d0ed350a26d111412ba00e237174238",
+      "file_count": 36,
+      "commit_count": 7,
+      "commit_shas": [
+        "32ad9251eb9a4d89386e36768832e959f487fc1b",
+        "be73c07c477e2875fa6cd86f00142f14b9a29cb3",
+        "e2541866d9accd6a20f9e38593cc8bb04c030036",
+        "390d86b831e4ed626cc7f2ce0e122a0c2bd0b0ca",
+        "2431a50250188f26a77e42146b645a38d4f13233",
+        "3b7a92a46b497ed5f3e49036c6cd63b7ee04fdcc",
+        "eceb02808b820101d5d231b8137e6bcb003f74fb"
+      ],
+      "refs": [
+        "refs/heads/master 32ad9251eb9a4d89386e36768832e959f487fc1b"
+      ],
+      "entries": [
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4cf04eb9cbcd4866b891d039d1d43acea0258e17",
+          "path": ".gitignore"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a8192b7c38cfaf61153a0d0306d71fe6146a0a2a",
+          "path": "CSA_Img/AGC_attenuation_values.mat"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "badfa9da7b28b868b74e93d6dd7bb9f88c5e0162",
+          "path": "CSA_Img/CD_run_params.mat"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a3a1edaef2a2312f277b67ed9999ebce597b7161",
+          "path": "CSA_Img/RADARSAT_CSA.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "927d60d3d972bac6a1f9c6d5776e6d116acad9fb",
+          "path": "CSA_Img/SAR_CSA.bmp"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9b17249cfb75a12c40d3f7994d2784cc129cc461",
+          "path": "CSA_Img/extract_data.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "30a20cc683484e6790d641c631fa9c871b9a90ec",
+          "path": "CSA_Img/read_CEOS_raw.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2f21d6021b8ddde048b6d89ca2bf497066486aee",
+          "path": "CSA_Img/readme.txt"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "66947d150feb4396b0c84e4ae016f0453a8e0046",
+          "path": "CSA_Img/scene01/CDdata1.mat"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c455fa9c23870bfaf6258a790dd3c176a5d04aa8",
+          "path": "CSA_Img/specify_parameters.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7f68fad9d0d6ac1ed018aa0a02e9e3a9698561b3",
+          "path": "CSA_Img/test.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "path": "LICENSE"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "66b18da3e7683b7013d4f3940c3ae141483bc52b",
+          "path": "RDA2_Img/CD_run_params.mat"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4a17a64f0a0b68af2f56e490c367ce210c8345c3",
+          "path": "RDA2_Img/RADARSAT_RDA_2.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9b17249cfb75a12c40d3f7994d2784cc129cc461",
+          "path": "RDA2_Img/extract_data.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e9967de292bf6af74d35c74ea063bace862614ce",
+          "path": "RDA2_Img/read_CEOS_raw.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2f21d6021b8ddde048b6d89ca2bf497066486aee",
+          "path": "RDA2_Img/readme.txt"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "57e2b464baaf026152167740c58392ebce4f987f",
+          "path": "RDA2_Img/scene01/CDdata1.mat"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c455fa9c23870bfaf6258a790dd3c176a5d04aa8",
+          "path": "RDA2_Img/specify_parameters.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9e1095ff668b91145e10cff436a48da1ee912344",
+          "path": "RDA3_Img/CD_run_params.mat"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "613bb3aba471e74008fb60996769c1afbb4ea65e",
+          "path": "RDA3_Img/RADARSAT_RDA_3.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9b17249cfb75a12c40d3f7994d2784cc129cc461",
+          "path": "RDA3_Img/extract_data.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "30a20cc683484e6790d641c631fa9c871b9a90ec",
+          "path": "RDA3_Img/read_CEOS_raw.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2f21d6021b8ddde048b6d89ca2bf497066486aee",
+          "path": "RDA3_Img/readme.txt"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fe8cc73b7a417afe61cd29cca5ff078240ac56ef",
+          "path": "RDA3_Img/scene01/CDdata1.mat"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c455fa9c23870bfaf6258a790dd3c176a5d04aa8",
+          "path": "RDA3_Img/specify_parameters.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "01e292bb860e0e9ad6dcba6f1d657dc1fcaa87ad",
+          "path": "README.md"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d2bcc9c39c579c0e62fec3413c80df103a828ef1",
+          "path": "SAR_CSA.jpg"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9255dbb5c852a1c2616595ed3421b94a4299fc2f",
+          "path": "wKA_Img/CD_run_params.mat"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ce93cf3f73950732c06b95491ffb9aaa70a576c9",
+          "path": "wKA_Img/RADARSAT_wKA_1.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2f11a2ce7de2ede5c6068230597dfa12ee4d0d11",
+          "path": "wKA_Img/RADARSAT_wKA_2.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9b17249cfb75a12c40d3f7994d2784cc129cc461",
+          "path": "wKA_Img/extract_data.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "30a20cc683484e6790d641c631fa9c871b9a90ec",
+          "path": "wKA_Img/read_CEOS_raw.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2f21d6021b8ddde048b6d89ca2bf497066486aee",
+          "path": "wKA_Img/readme.txt"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "68e1e2392220c06b2b0752423c0e55bacdf8533e",
+          "path": "wKA_Img/scene01/CDdata1.mat"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c455fa9c23870bfaf6258a790dd3c176a5d04aa8",
+          "path": "wKA_Img/specify_parameters.m"
+        }
+      ],
+      "licenses": [
+        "LICENSE"
+      ],
+      "package_manifests": [],
+      "data_files": [
+        "CSA_Img/AGC_attenuation_values.mat",
+        "CSA_Img/CD_run_params.mat",
+        "CSA_Img/readme.txt",
+        "CSA_Img/scene01/CDdata1.mat",
+        "RDA2_Img/CD_run_params.mat",
+        "RDA2_Img/readme.txt",
+        "RDA2_Img/scene01/CDdata1.mat",
+        "RDA3_Img/CD_run_params.mat",
+        "RDA3_Img/readme.txt",
+        "RDA3_Img/scene01/CDdata1.mat",
+        "SAR_CSA.jpg",
+        "wKA_Img/CD_run_params.mat",
+        "wKA_Img/readme.txt",
+        "wKA_Img/scene01/CDdata1.mat"
+      ],
+      "upstream": "joeyos/SAR-imaging",
+      "has_pages": false,
+      "validation": {
+        "tree_identical": true,
+        "all_commit_objects_present": true,
+        "source_head_is_main_ancestor": true,
+        "source_fsck_passed": true
+      }
+    },
+    {
+      "repository": "liujunyukarry/Simulation-of-SAR-Imaging-Algorithm",
+      "prefix": "point-targets/Simulation-of-SAR-Imaging-Algorithm",
+      "default_branch": "master",
+      "head_sha": "d268e82692556869646e35fe3e342a27e6e7cc86",
+      "tree_sha": "765feaf14fcf8a170e06a1226ff4bf7d11321a2c",
+      "file_count": 7,
+      "commit_count": 4,
+      "commit_shas": [
+        "d268e82692556869646e35fe3e342a27e6e7cc86",
+        "a94f24b33556f1bf72308be14d442a4e67e04784",
+        "a380c19cba75dd61eee9e7904caab7ba291a4634",
+        "089c1b1083100a8e5db01bbb1e80083ca2b6f1e3"
+      ],
+      "refs": [
+        "refs/heads/master d268e82692556869646e35fe3e342a27e6e7cc86"
+      ],
+      "entries": [
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4cf04eb9cbcd4866b891d039d1d43acea0258e17",
+          "path": ".gitignore"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "12b6478aadb518fbc466c7757dc1196d84d56540",
+          "path": "CSA_imaging.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e5d115046e42ddd7e70335e075f24f8677314071",
+          "path": "RDA_imaging.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a8a0dcf94a211a419ffbf51b9ac11a1075704fbf",
+          "path": "README.md"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a0360118346648e3e4dd98e3f5e765c66906ec0b",
+          "path": "readme.txt"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "325a0bbbe95d18865cfb49b263bd1918fc226123",
+          "path": "target_analysis.m"
+        },
+        {
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4aac4c99c9d1f29c08c0634017a2a45e68d24102",
+          "path": "zhibiao_2.m"
+        }
+      ],
+      "licenses": [],
+      "package_manifests": [],
+      "data_files": [
+        "readme.txt"
+      ],
+      "upstream": "denkywu/Simulation-of-SAR-Imaging-Algorithm",
+      "has_pages": false,
+      "validation": {
+        "tree_identical": true,
+        "all_commit_objects_present": true,
+        "source_head_is_main_ancestor": true,
+        "source_fsck_passed": true
+      }
+    }
+  ]
+}
