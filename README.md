@@ -27,3 +27,5 @@
 本仓库没有用统一许可证覆盖原项目，原作者署名和原始许可文本保持原样。新综合仓库并不继承三个 fork 的 GitHub fork 关系；原 fork 仓库保留该关系。
 
 见 [迁移说明与验证方法](docs/MIGRATION.md) 和 [验证结果](docs/VALIDATION.md)。
+
+原始仓库现保留于 [只读归档组织](https://github.com/orgs/liujunyukarry-archive/repositories)。完整结果见 [最终验收报告](docs/FINAL_REPORT.md)。
